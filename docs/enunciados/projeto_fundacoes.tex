@@ -1,0 +1,142 @@
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\setstretch{1.2}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{DISCIPLINA: FUNDAÇÕES}}\\[0.3cm]
+Curso de Engenharia Civil -- FECFAU / UNICAMP\\
+Professor Responsável: Prof.\ Dr.\ Paulo Albuquerque\\
+\end{center}
+
+\vspace{0.5cm}
+
+\section*{Introdução}
+
+A presente disciplina tem como objetivo o ensino de fundações rasas e profundas, com base em métodos clássicos da Engenharia Geotécnica, integrando de forma incremental ferramentas computacionais contemporâneas, como Machine Learning (ML), Modelagem da Informação da Construção (BIM), Digital Twins e scripts em pyRevit.  
+
+O princípio norteador da disciplina é o de que a tecnologia atua como ferramenta de apoio à engenharia, não substituindo o raciocínio técnico, a análise normativa ou a responsabilidade profissional.
+
+\section*{PROJETO 1 --- FUNDAÇÕES RASAS}
+
+\subsection*{Objetivo}
+
+Capacitar o aluno a dimensionar fundações rasas para edificações de pequeno porte, a partir de dados de sondagem SPT, utilizando métodos clássicos consagrados, complementados por uma aplicação introdutória de Machine Learning.
+
+\subsection*{Descrição do Problema}
+
+Cada grupo receberá planta arquitetônica simplificada, cargas verticais atuantes e dados de sondagem SPT do terreno. O projeto deverá contemplar sapatas isoladas, associadas e de divisa, quando aplicável.
+
+\subsection*{Atividades Obrigatórias}
+
+\subsubsection*{Dimensionamento Clássico}
+
+O grupo deverá realizar a interpretação geotécnica do solo, determinação da tensão admissível, dimensionamento das áreas das sapatas e verificações normativas conforme a NBR~6122. Este item é soberano no projeto.
+
+\subsubsection*{Aplicação de Machine Learning}
+
+Será fornecido um dataset-base da disciplina. Cada grupo deverá utilizar obrigatoriamente um modelo de regressão linear e, opcionalmente, um segundo modelo simples. Os resultados obtidos via ML deverão ser comparados criticamente com o dimensionamento clássico.
+
+\subsubsection*{Modelagem BIM}
+
+As fundações deverão ser modeladas no Revit, com atribuição de parâmetros geométricos e de carga. O uso de pyRevit será restrito à leitura e organização de parâmetros.
+
+\subsection*{Entregáveis}
+
+\begin{itemize}[leftmargin=1.2cm]
+\item Memorial de cálculo (PDF);
+\item Relatório técnico de ML (PDF);
+\item Projeto gráfico de fundações;
+\item Modelo BIM (.rvt).
+\end{itemize}
+
+\subsection*{Critérios de Avaliação}
+
+\begin{center}
+\begin{tabular}{l c}
+\toprule
+Item & Peso \\
+\midrule
+Dimensionamento clássico & 50\% \\
+Projeto gráfico & 20\% \\
+Aplicação de ML & 20\% \\
+Qualidade do relatório & 10\% \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section*{PROJETO 2 --- FUNDAÇÕES PROFUNDAS}
+
+\subsection*{Objetivo}
+
+Desenvolver um projeto completo de fundações profundas, integrando dimensionamento clássico, análises no software RSPile, Machine Learning em nível intermediário e conceitos de Digital Twin.
+
+\subsection*{Descrição do Problema}
+
+Cada grupo receberá dados de sondagem SPT, cargas estruturais e um tipo específico de estaca definido pelo professor, mantendo a prática tradicional da disciplina.
+
+\subsection*{Atividades Obrigatórias}
+
+\subsubsection*{Dimensionamento Clássico}
+
+Determinação da capacidade de carga, comprimento e diâmetro das estacas, conforme métodos analíticos adequados.
+
+\subsubsection*{Análise Numérica}
+
+Modelagem e análise das estacas no software RSPile, com comparação crítica entre resultados analíticos e numéricos.
+
+\subsubsection*{Aplicação de Machine Learning}
+
+Cada grupo deverá escolher apenas uma variável de saída (capacidade última ou comprimento da estaca), utilizando no máximo dois modelos de ML para estimativas preliminares.
+
+\subsubsection*{Digital Twin e BIM}
+
+Modelagem das estacas e blocos no Revit, com uso de pyRevit para leitura de parâmetros, verificação de coerência geométrica e extração de informações do modelo, caracterizando um Digital Twin simplificado.
+
+\subsection*{Entregáveis}
+
+\begin{itemize}[leftmargin=1.2cm]
+\item Memorial de cálculo;
+\item Relatório técnico integrado (ML + RSPile + BIM);
+\item Projeto gráfico;
+\item Modelo BIM;
+\item Arquivos computacionais utilizados.
+\end{itemize}
+
+\subsection*{Critérios de Avaliação}
+
+\begin{center}
+\begin{tabular}{l c}
+\toprule
+Item & Peso \\
+\midrule
+Dimensionamento clássico & 40\% \\
+Análise no RSPile & 20\% \\
+Aplicação de ML & 20\% \\
+Digital Twin (BIM + pyRevit) & 10\% \\
+Qualidade técnica e crítica & 10\% \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section*{Observação Final}
+
+O uso de ferramentas computacionais não substitui o raciocínio de engenharia. As decisões técnicas devem ser sempre fundamentadas em critérios normativos e no julgamento profissional do engenheiro responsável.
+
+\end{document}
