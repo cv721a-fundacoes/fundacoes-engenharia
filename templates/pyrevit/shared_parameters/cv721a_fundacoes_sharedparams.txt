@@ -1,0 +1,28 @@
+# Shared Parameters — CV721A Fundações
+
+## Parâmetros comuns (obrigatórios)
+- CV721A_ID (Texto)
+- CV721A_Projeto (Texto)
+- CV721A_Grupo (Texto)
+- CV721A_Caso (Texto)
+- CV721A_Carga_kN (Número)
+- CV721A_Obs (Texto)
+
+## Projeto 1 — Fundações Rasas
+- CV721A_Sapata_Tipo (Texto)
+- CV721A_Sapata_Area_m2 (Número)
+- CV721A_Sapata_B_m (Número)
+- CV721A_Sapata_L_m (Número)
+- CV721A_Sapata_Cota_m (Número)
+- CV721A_sigma_adm_kPa (Número)
+
+## Projeto 2 — Fundações Profundas
+- CV721A_Estaca_Tipo (Texto)
+- CV721A_Estaca_Diam_m (Número)
+- CV721A_Estaca_Comp_m (Número)
+- CV721A_Estaca_CapUlt_kN (Número)
+- CV721A_Bloco_Tipo (Texto)
+- CV721A_Bloco_Cota_m (Número)
+
+> Quando o template Revit estiver disponível, este diretório também conterá o arquivo
+`cv721a_fundacoes_sharedparams.txt` exportado diretamente do Revit.
