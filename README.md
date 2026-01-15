@@ -20,6 +20,8 @@ ferramentas contemporâneas utilizadas na prática profissional, tais como:
 - Modelagem da Informação da Construção (BIM)
 - Digital Twins
 - Scripts em Python e pyRevit
+- Automação leve aplicada à leitura e verificação de modelos (ex.: pyRevit)
+
 
 > Tecnologia não substitui engenharia.  
 > O cálculo clássico, a norma técnica e o julgamento profissional permanecem centrais.
