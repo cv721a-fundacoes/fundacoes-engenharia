@@ -1,0 +1,235 @@
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\setstretch{1.2}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection}{1em}{}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{RÚBRICA DE AVALIAÇÃO — DISCIPLINA DE FUNDAÇÕES}}\\[0.2cm]
+{\large ML - BIM - Digital Twin como ferramentas de apoio}\\[0.2cm]
+Curso de Engenharia Civil — FECFAU / UNICAMP\\
+Professor Responsável: Prof.\ Dr.\ Paulo Albuquerque
+\end{center}
+
+\vspace{0.5cm}
+
+\section*{Princípio Geral de Avaliação}
+
+O domínio do raciocínio clássico de engenharia é condição necessária para aprovação. 
+O uso de ML, BIM e Digital Twins não compensa erros conceituais de projeto.
+
+\section*{Projeto 1 — Fundações Rasas}
+
+\subsection*{Pesos}
+\begin{center}
+\begin{tabular}{l c}
+\toprule
+Item & Peso \\
+\midrule
+Dimensionamento clássico & 50\% \\
+Projeto gráfico & 20\% \\
+Machine Learning & 20\% \\
+Qualidade do relatório & 10\% \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{1. Dimensionamento Clássico (50\%) — Rubrica detalhada}
+
+\begin{longtable}{L{4.2cm} L{4.2cm} L{4.2cm} L{3.2cm}}
+\toprule
+\textbf{Critério} & \textbf{Excelente} & \textbf{Adequado} & \textbf{Insuficiente} \\
+\midrule
+\endhead
+Interpretação do SPT & Correta, coerente e bem justificada & Pequenas simplificações & Erros conceituais \\
+Cálculo da tensão admissível & Método adequado e bem aplicado & Aplicação parcial & Método incorreto \\
+Dimensionamento das sapatas & Coerente, seguro e normativo & Pequenas inconsistências & Dimensionamento incorreto \\
+Uso das normas & Citações corretas (NBR~6122) & Uso superficial & Ausente ou incorreto \\
+\bottomrule
+\end{longtable}
+
+\noindent \textbf{Observação:} erro grave nesta etapa limita a nota máxima do projeto.
+
+\subsection*{2. Projeto Gráfico (20\%)}
+
+\begin{center}
+\begin{tabularx}{\textwidth}{L{5.2cm} Y}
+\toprule
+\textbf{Critério} & \textbf{Avaliação} \\
+\midrule
+Planta de fundações & Clareza, cotas e simbologia \\
+Cortes e detalhes & Correção técnica \\
+Compatibilidade com o cálculo & Consistência \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\subsection*{3. Machine Learning (20\%)}
+
+\noindent
+Nesta etapa, o \textbf{Machine Learning é empregado exclusivamente como ferramenta de
+alfabetização conceitual}, por meio do uso do software \textbf{Orange (ambiente low-code)}.
+O objetivo é desenvolver a compreensão dos elementos fundamentais de um problema de ML
+(\textit{features}, variável-alvo, erro, validação e limitações do modelo), 
+\textbf{sem que o ML atue como decisor de projeto}.
+
+\begin{center}
+\begin{tabularx}{\textwidth}{L{6.2cm} Y}
+\toprule
+\textbf{Critério} & \textbf{Avaliação} \\
+\midrule
+Uso correto do dataset & Sim / Não \\
+Escolha do modelo & Justificada \\
+Métricas adequadas & MAE, erro percentual \\
+Comparação com cálculo clássico & Discussão técnica \\
+Consciência dos limites do ML & Evidente \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+
+\noindent \textbf{Observação:} modelos complexos sem justificativa não geram nota adicional.
+
+\subsection*{4. Qualidade do Relatório (10\%)}
+
+\begin{itemize}[leftmargin=1.2cm]
+\item Clareza técnica;
+\item Organização;
+\item Coerência entre texto, tabelas e resultados.
+\end{itemize}
+
+\section*{Projeto 2 — Fundações Profundas}
+
+\subsection*{Pesos}
+\begin{center}
+\begin{tabular}{l c}
+\toprule
+Item & Peso \\
+\midrule
+Dimensionamento clássico & 40\% \\
+Análise no RSPile & 20\% \\
+Machine Learning & 20\% \\
+Digital Twin (BIM + pyRevit) & 10\% \\
+Qualidade técnica e crítica & 10\% \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{1. Dimensionamento Clássico (40\%) — Rubrica detalhada}
+
+\begin{longtable}{L{4.2cm} L{4.2cm} L{4.2cm} L{3.2cm}}
+\toprule
+\textbf{Critério} & \textbf{Excelente} & \textbf{Adequado} & \textbf{Insuficiente} \\
+\midrule
+\endhead
+Método escolhido & Justificado e correto & Justificado parcialmente & Inadequado \\
+Cálculo da capacidade & Correto e consistente & Pequenos desvios & Erros conceituais \\
+Definição de comprimento & Bem fundamentada & Simplificada & Arbitrária \\
+\bottomrule
+\end{longtable}
+
+\subsection*{2. Análise no RSPile (20\%)}
+
+\begin{center}
+\begin{tabularx}{\textwidth}{L{6.2cm} Y}
+\toprule
+\textbf{Critério} & \textbf{Avaliação} \\
+\midrule
+Modelagem correta & Sim / Não \\
+Parâmetros coerentes & Sim / Não \\
+Comparação com cálculo analítico & Discussão clara \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\subsection*{3. Machine Learning (20\%)}
+
+\begin{center}
+\begin{tabularx}{\textwidth}{L{6.2cm} Y}
+\toprule
+\textbf{Critério} & \textbf{Avaliação} \\
+\midrule
+Definição clara do problema & Sim / Não \\
+Escolha de apenas uma saída & Obrigatório \\
+Limite de modelos respeitado & Até 2 \\
+Interpretação física dos resultados & Clara \\
+Discussão de erros e incertezas & Presente \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\noindent \textbf{Observação:} treinar ML com o próprio dado do projeto invalida esta etapa.
+
+\subsection*{4. Digital Twin (10\%)}
+
+\begin{center}
+\begin{tabularx}{\textwidth}{L{6.2cm} Y}
+\toprule
+\textbf{Critério} & \textbf{Avaliação} \\
+\midrule
+Modelo BIM coerente & Sim / Não \\
+Parâmetros corretamente atribuídos & Sim / Não \\
+Uso do pyRevit & Funcional e justificado \\
+Rastreamento entre dados e modelo & Evidente \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\subsection*{5. Qualidade Técnica e Crítica (10\%)}
+
+\begin{itemize}[leftmargin=1.2cm]
+\item Capacidade de argumentação;
+\item Reconhecimento de limitações;
+\item Postura profissional.
+\end{itemize}
+
+\section*{Critérios Transversais (ambos os projetos)}
+
+\subsection*{Penalizações}
+
+\begin{itemize}[leftmargin=1.2cm]
+\item Uso de ML como ``decisor'' $\rightarrow$ penalização direta;
+\item Falta de memorial de cálculo $\rightarrow$ reprovação do projeto;
+\item Copiar código sem entendimento $\rightarrow$ penalização.
+\end{itemize}
+
+\subsection*{Bonificação (limitada)}
+
+\begin{itemize}[leftmargin=1.2cm]
+\item Discussão crítica madura;
+\item Clareza excepcional;
+\item Organização exemplar.
+\end{itemize}
+
+\noindent \textbf{Observação:} não há bônus por complexidade algorítmica.
+
+\section*{Frase-chave para os alunos (Moodle)}
+
+\begin{quote}
+``Nesta disciplina, tecnologia não substitui engenharia.
+Um projeto simples, correto e bem justificado vale mais do que um projeto sofisticado sem base técnica.''
+\end{quote}
+
+\end{document}

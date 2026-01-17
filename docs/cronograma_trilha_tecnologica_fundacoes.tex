@@ -1,0 +1,199 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\setstretch{1.2}
+
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{CRONOGRAMA DIDÁTICO — TRILHA TECNOLÓGICA}}\\[0.2cm]
+{\large Disciplina de Fundações — Engenharia Civil}\\
+FECFAU / UNICAMP
+\end{center}
+
+\vspace{0.4cm}
+
+\section*{Premissas Gerais}
+
+\begin{itemize}[leftmargin=1.2cm]
+\item O roteiro clássico da disciplina de Fundações é conduzido pelo professor responsável, conforme metodologia tradicional.
+\item A presente trilha tecnológica atua de forma complementar, sem substituir o ensino dos métodos clássicos.
+\item A introdução de ferramentas computacionais ocorre de forma incremental, com controle explícito da sobrecarga cognitiva.
+\item O raciocínio de engenharia precede qualquer aplicação de tecnologia.
+\item O desempenho computacional não se sobrepõe à coerência técnica e normativa.
+\end{itemize}
+
+\section*{Visão Geral do Semestre}
+
+\begin{center}
+\begin{tabular}{l c c}
+\toprule
+Fase & Semanas & Foco Principal \\
+\midrule
+Fase 0 & 1 & Alinhamento conceitual e papel da tecnologia \\
+Fase 1 & 2--6 & Projeto 1: ML introdutório (Orange) e BIM básico \\
+Fase 2 & 7--8 & Consolidação e entrega do Projeto 1 \\
+Fase 3 & 9--13 & Projeto 2: ML moderado (Python) e Digital Twin \\
+Fase 4 & 14--15 & Consolidação e entrega do Projeto 2 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section*{Fase 0 — Alinhamento Conceitual}
+
+\textbf{Semana 1}
+
+Objetivos:
+\begin{itemize}[leftmargin=1.2cm]
+\item Estabelecer limites e responsabilidades do uso de tecnologia na Engenharia Geotécnica;
+\item Reduzir resistência inicial ao uso de ferramentas computacionais;
+\item Alinhar expectativas quanto aos projetos e critérios de avaliação.
+\end{itemize}
+
+Conteúdo:
+\begin{itemize}[leftmargin=1.2cm]
+\item O que Machine Learning \textbf{não} é em engenharia;
+\item Conceito de Digital Twin aplicado a fundações;
+\item Apresentação geral dos projetos, datasets e ferramentas.
+\end{itemize}
+
+\section*{Fase 1 — Projeto 1: ML Introdutório e BIM Simples}
+
+\textbf{Semanas 2 a 6}
+
+\subsection*{Semana 2 — Dados e Engenharia}
+
+Conteúdo:
+\begin{itemize}[leftmargin=1.2cm]
+\item Conceito de dataset e variáveis com significado físico;
+\item Apresentação do dataset-base de fundações rasas.
+\end{itemize}
+
+Atividade:
+\begin{itemize}[leftmargin=1.2cm]
+\item Análise exploratória dos dados (tabelas e gráficos);
+\item Discussão da relação entre dados e hipóteses de engenharia.
+\end{itemize}
+
+\subsection*{Semana 3 — Machine Learning Introdutório (Orange)}
+
+Conteúdo:
+\begin{itemize}[leftmargin=1.2cm]
+\item Aprendizagem supervisionada e regressão linear;
+\item Métricas de erro e interpretação física.
+\end{itemize}
+
+Atividade:
+\begin{itemize}[leftmargin=1.2cm]
+\item Execução do modelo obrigatório em ambiente visual (Orange);
+\item Comparação preliminar com o dimensionamento clássico.
+\end{itemize}
+
+\subsection*{Semana 4 — Limites do Machine Learning}
+
+Conteúdo:
+\begin{itemize}[leftmargin=1.2cm]
+\item Overfitting, escassez de dados e extrapolação;
+\item Discussão crítica dos resultados obtidos via ML.
+\end{itemize}
+
+Atividade:
+\begin{itemize}[leftmargin=1.2cm]
+\item Relatório curto sobre limitações e falhas do modelo.
+\end{itemize}
+
+\subsection*{Semana 5 — BIM Básico}
+
+Conteúdo:
+\begin{itemize}[leftmargin=1.2cm]
+\item Modelagem de fundações rasas no Revit;
+\item Parâmetros geométricos e introdução ao pyRevit (leitura e organização).
+\end{itemize}
+
+Atividade:
+\begin{itemize}[leftmargin=1.2cm]
+\item Modelo BIM simples das sapatas.
+\end{itemize}
+
+\subsection*{Semana 6 — Integração do Projeto 1}
+
+\begin{itemize}[leftmargin=1.2cm]
+\item Integração entre cálculo clássico, ML introdutório e BIM;
+\item Preparação da entrega do Projeto 1.
+\end{itemize}
+
+\section*{Fase 2 — Consolidação do Projeto 1}
+
+\textbf{Semanas 7 e 8}
+
+\begin{itemize}[leftmargin=1.2cm]
+\item Entrega do Projeto 1;
+\item Discussão coletiva dos resultados;
+\item Consolidação conceitual do papel do ML como ferramenta de apoio.
+\end{itemize}
+
+\section*{Fase 3 — Projeto 2: ML Moderado e Digital Twin}
+
+\textbf{Semanas 9 a 13}
+
+\subsection*{Semana 9 — Dados Estratificados e Definição do Problema}
+
+\begin{itemize}[leftmargin=1.2cm]
+\item Datasets geotécnicos estratificados;
+\item Definição clara da variável de saída do ML.
+\end{itemize}
+
+\subsection*{Semana 10 — Machine Learning Moderado (Python)}
+
+\begin{itemize}[leftmargin=1.2cm]
+\item Uso de notebooks-base fornecidos;
+\item Comparação entre até dois modelos de ML;
+\item Ênfase em reprodutibilidade.
+\end{itemize}
+
+\subsection*{Semana 11 — Integração com RSPile}
+
+\begin{itemize}[leftmargin=1.2cm]
+\item Comparação entre ML, cálculo analítico e RSPile;
+\item Discussão técnica de divergências.
+\end{itemize}
+
+\subsection*{Semana 12 — Digital Twin}
+
+\begin{itemize}[leftmargin=1.2cm]
+\item Modelagem BIM de estacas e blocos;
+\item Uso do pyRevit para verificação, rastreabilidade e extração de dados.
+\end{itemize}
+
+\subsection*{Semana 13 — Integração Final}
+
+\begin{itemize}[leftmargin=1.2cm]
+\item Projeto como sistema integrado de dados, modelos e hipóteses;
+\item Discussão sobre limites da automação.
+\end{itemize}
+
+\section*{Fase 4 — Encerramento}
+
+\textbf{Semanas 14 e 15}
+
+\begin{itemize}[leftmargin=1.2cm]
+\item Entrega do Projeto 2;
+\item Discussão crítica sobre automação, ética e responsabilidade técnica;
+\item Encerramento da trilha tecnológica.
+\end{itemize}
+
+\section*{Mensagem Final}
+
+\begin{quote}
+A trilha tecnológica acompanha o avanço do conteúdo clássico da disciplina, sendo introduzida de forma incremental e subordinada ao raciocínio tradicional da Engenharia Geotécnica, priorizando compreensão conceitual, julgamento profissional e responsabilidade técnica.
+\end{quote}
+
+\end{document}
