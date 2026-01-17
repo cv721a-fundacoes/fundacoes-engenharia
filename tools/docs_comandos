@@ -1,0 +1,5 @@
+# atualizar o dataset_fundacoes_rasas_com_tensao
+
+cd fundacoes-engenharia
+source .venv/bin/activate
+python datasets/tools/calcula_tensao.py --in datasets/dataset_fundacoes_rasas.csv --out datasets/dataset_fundacoes_rasas_com_tensao.csv

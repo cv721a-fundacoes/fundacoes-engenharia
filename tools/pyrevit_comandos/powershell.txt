@@ -1,0 +1,5 @@
+cd $env:APPDATA\pyRevit\Extensions
+
+mkdir MEP.extension\Quantitativos.tab\Eletrica.panel\Cabos.pushbutton -Force
+
+notepad MEP.extension\Quantitativos.tab\Eletrica.panel\Cabos.pushbutton\script.py
