@@ -94,7 +94,7 @@ O ML nesta etapa possui caráter **alfabetizador**, não decisório.
 
 - Professor responsável: Prof. Dr. Paulo Albuquerque  
 - Trilha tecnológica e apoio computacional:  
-  Heloi Moacyr Tanoue (PED / Pós-graduação)
+  Heloi Moacyr Tanoue e Samuel Santos de Souza Pinto (PED / Pós-graduação)
 
 ---
 
