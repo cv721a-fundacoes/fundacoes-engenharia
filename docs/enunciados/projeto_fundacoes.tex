@@ -29,7 +29,7 @@ Professor Responsável: Prof.\ Dr.\ Paulo Albuquerque\\
 
 \section*{Introdução}
 
-A presente disciplina tem como objetivo o ensino de fundações rasas e profundas, com base em métodos clássicos da Engenharia Geotécnica, integrando de forma incremental ferramentas computacionais contemporâneas, como Machine Learning (ML), Modelagem da Informação da Construção (BIM), Digital Twins e scripts em pyRevit.  
+A presente disciplina tem como objetivo o ensino de fundações rasas e profundas, com base em métodos clássicos da Engenharia Geotécnica, integrando de forma incremental ferramentas computacionais contemporâneas, como Machine Learning (ML), Modelagem da Informação da Construção (BIM) e uso de scripts em pyRevit.
 
 O princípio norteador da disciplina é o de que a tecnologia atua como ferramenta de apoio à engenharia, não substituindo o raciocínio técnico, a análise normativa ou a responsabilidade profissional.
 
@@ -51,16 +51,15 @@ O grupo deverá realizar a interpretação geotécnica do solo, determinação d
 
 \subsubsection*{Aplicação de Machine Learning}
 
-Será fornecido um dataset-base oficial da disciplina. Cada grupo deverá utilizar
-obrigatoriamente um modelo de regressão linear e, opcionalmente, um segundo modelo
-simples. Os resultados obtidos por meio de Machine Learning deverão ser comparados
-criticamente com aqueles provenientes do dimensionamento clássico.
+Será fornecido um dataset-base oficial da disciplina, bem como o workflow do software Orange a ser utilizado.
 
-A aplicação de Machine Learning no Projeto~1 será realizada por meio de uma ferramenta
-visual de caráter didático (Orange), com o objetivo de introduzir conceitos fundamentais
-de aprendizagem supervisionada, avaliação de erro e análise comparativa entre métodos.
-O uso da ferramenta não substitui o raciocínio de engenharia, o dimensionamento
-normativo ou o julgamento técnico do projetista.
+O uso da regressão linear é obrigatório nesta etapa.
+
+O objetivo é introduzir conceitos fundamentais de aprendizagem supervisionada, avaliação de erro e interpretação física dos resultados.
+
+Alterações não autorizadas no workflow ou utilização de modelos adicionais não geram pontuação extra.
+
+A aplicação de Machine Learning não substitui o raciocínio de engenharia, o dimensionamento normativo ou o julgamento técnico do projetista.
 
 
 \subsubsection*{Modelagem BIM}
@@ -95,11 +94,11 @@ Qualidade do relatório & 10\% \\
 
 \subsection*{Objetivo}
 
-Desenvolver um projeto completo de fundações profundas, integrando dimensionamento clássico, análises no software RSPile, Machine Learning em nível intermediário e conceitos de Digital Twin.
+Desenvolver um projeto completo de fundações profundas, integrando dimensionamento clássico, análises no software RSPile, Machine Learning em nível intermediário e uso integrado de BIM com apoio do pyRevit.
 
 \subsection*{Descrição do Problema}
 
-Cada grupo receberá dados de sondagem SPT, cargas estruturais e um tipo específico de estaca definido pelo professor, mantendo a prática tradicional da disciplina.
+Cada grupo receberá dados de sondagem SPT, cargas estruturais e um tipo específico de fundação profunda (tubulão) definido pelo professor, mantendo a prática tradicional da disciplina.
 
 \subsection*{Atividades Obrigatórias}
 
@@ -115,9 +114,12 @@ Modelagem e análise das estacas no software RSPile, com comparação crítica e
 
 Cada grupo deverá escolher apenas uma variável de saída (capacidade última ou comprimento da estaca), utilizando no máximo dois modelos de ML para estimativas preliminares.
 
-\subsubsection*{Digital Twin e BIM}
+\subsubsection*{BIM e Integração de Dados}
 
-Modelagem das estacas e blocos no Revit, com uso de pyRevit para leitura de parâmetros, verificação de coerência geométrica e extração de informações do modelo, caracterizando um Digital Twin simplificado.
+Modelagem dos tubulões no Revit, com uso de pyRevit para leitura de parâmetros, verificação de coerência geométrica e extração de informações do modelo.
+
+A integração entre dados, hipóteses adotadas e representação BIM caracteriza um sistema digital de apoio ao projeto, sem substituir o dimensionamento clássico.
+
 
 \subsection*{Entregáveis}
 
@@ -139,7 +141,7 @@ Item & Peso \\
 Dimensionamento clássico & 40\% \\
 Análise no RSPile & 20\% \\
 Aplicação de ML & 20\% \\
-Digital Twin (BIM + pyRevit) & 10\% \\
+BIM e uso do pyRevit & 10\% \\
 Qualidade técnica e crítica & 10\% \\
 \bottomrule
 \end{tabular}
