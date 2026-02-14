@@ -62,4 +62,8 @@
 - pyRevit — documentação oficial:  
   https://github.com/eirannejad/pyRevit
 
+<<<<<<< Updated upstream
 - Tutoriais introdutórios sobre integração BIM e automação leve (uso didático).
+=======
+- Tutoriais introdutórios sobre integração BIM e automação leve (uso didático).
+>>>>>>> Stashed changes

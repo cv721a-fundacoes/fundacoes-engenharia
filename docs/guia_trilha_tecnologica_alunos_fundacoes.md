@@ -1,6 +1,6 @@
 # Guia da Trilha Tecnológica para Alunos  
 **Disciplina: Fundações (CV721A) — Engenharia Civil / UNICAMP**
-
+“Documento operacional para alunos. Para a visão institucional da trilha, ver docs/trilha_tecnologica.md.”
 ---
 
 ## 1. Apresentação
@@ -45,9 +45,11 @@ Não é obrigatório clonar o repositório GitHub para a realização dos projet
 
 O aluno pode:
 - acessar o repositório diretamente pelo navegador;
-- baixar os arquivos necessários (PDFs, datasets, notebooks).
+- baixar datasets e notebooks disponibilizados;
+- consultar os documentos oficiais em formato PDF publicados no Google Classroom.
 
-Quando indicado pelo professor ou pelo PED, o uso do Git e do versionamento será apresentado em aula, de forma orientada.
+📌 O Google Classroom é o canal oficial de distribuição dos documentos em PDF.  
+O GitHub constitui o repositório técnico da disciplina.
 
 ---
 
@@ -72,10 +74,14 @@ Nos projetos da disciplina:
 - o **dimensionamento clássico é soberano**;
 - Machine Learning é utilizado apenas como **ferramenta de apoio à análise**;
 - resultados computacionais devem ser sempre discutidos de forma crítica.
-
+ 
 **Projeto 1 — Fundações Rasas**  
-- Uso de Machine Learning introdutório, por meio de ferramenta visual (Orange);  
+- Uso de Machine Learning introdutório por meio do software Orange;  
+- O workflow será fornecido pela disciplina;  
+- O uso de regressão linear é obrigatório;  
 - Objetivo: compreender conceitos básicos de aprendizagem supervisionada, erro e comparação com métodos clássicos.
+
+Alterações não autorizadas no workflow ou utilização de modelos adicionais não geram pontuação extra.
 
 **Projeto 2 — Fundações Profundas**  
 - Uso de Machine Learning em nível moderado, por meio de notebooks em Python fornecidos;  
@@ -85,14 +91,16 @@ Nos projetos da disciplina:
 
 ---
 
-## 4. Modelagem BIM e Digital Twin (quando aplicável)
+## 4. Modelagem BIM e Integração de Dados
 
 Nos projetos que envolvem BIM:
 
 - o modelo deve representar corretamente as fundações projetadas;
-- ferramentas digitais são utilizadas para **leitura, organização e verificação de informações**;
+- ferramentas digitais são utilizadas para leitura, organização e verificação de informações;
 - scripts (como pyRevit) não substituem decisões técnicas de projeto;
-- o conceito de Digital Twin é explorado em nível **didático e introdutório**.
+- a integração entre dados, hipóteses adotadas e modelo BIM é explorada em nível didático.
+
+O uso de ferramentas digitais não substitui o dimensionamento clássico.
 
 ---
 

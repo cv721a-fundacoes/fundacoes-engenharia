@@ -1,9 +1,14 @@
+<<<<<<< Updated upstream
 # --- Python virtual environment ---
+=======
+# Python
+>>>>>>> Stashed changes
 .venv/
 
 # --- Python cache ---
 __pycache__/
 *.pyc
+<<<<<<< Updated upstream
 *.pyo
 *.pyd
 
@@ -11,6 +16,11 @@ __pycache__/
 .ipynb_checkpoints/
 
 # --- LaTeX auxiliary files ---
+=======
+.ipynb_checkpoints/
+
+# LaTeX (auxiliares)
+>>>>>>> Stashed changes
 *.aux
 *.log
 *.out
@@ -21,8 +31,14 @@ __pycache__/
 *.fdb_latexmk
 *.synctex.gz
 
+<<<<<<< Updated upstream
 # --- OS files ---
 .DS_Store
 Thumbs.db
 docs/pdf/*.pdf
 
+=======
+# PDFs gerados (distribuição via Classroom)
+docs/pdf/
+docs/enunciados/*.pdf
+>>>>>>> Stashed changes

@@ -1,4 +1,5 @@
 # Trilha Tecnológica — Disciplina de Fundações (CV721A)
+“Documento operacional para alunos. Para a visão institucional da trilha, ver docs/guia_trilha_tecnologica_alunos_fundacoes.md.”
 
 ## 1. Contexto e Objetivos
 
