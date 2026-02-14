@@ -1,79 +1,100 @@
-🇺🇸 English | 🇧🇷 [Versão em Português](README.md)
-# Foundations Engineering — Civil Engineering (UNICAMP)
+🇺🇸 English version | 🇧🇷 [Versão em Português](README.md)
 
-This repository gathers the **official instructional materials** for the Foundations course (CV721A)  
-of the Civil Engineering undergraduate program at **UNICAMP**.
+# CV721A — Foundations Course | Civil Engineering (UNICAMP)
 
-It contains **project statements**, **assessment rubrics**, **datasets**,  
-**base notebooks**, and supporting materials related to the application of  
-computational tools, always **subordinated to classical Geotechnical Engineering reasoning**.
+This repository contains the official institutional materials for the Foundations course (CV721A), part of the Civil Engineering curriculum at UNICAMP.
 
+Here you will find project guidelines, assessment rubrics, datasets, base notebooks, and supporting materials for the application of computational tools—all of which are explicitly subordinate to classical Geotechnical Engineering principles.
 
-## Objective of the Technological Track
+---
 
-The technological track of the course aims to **complement classical teaching**
-of shallow and deep foundations by introducing, in an **incremental, controlled,
-and critical manner**, contemporary tools commonly used in professional practice, such as:
+## Core Principle
 
-- Machine Learning (ML)
-- Building Information Modeling (BIM)
-- Digital Twins
-- Python and pyRevit scripting
+Classical design methods, technical standards (e.g., NBR 6122), and professional judgment constitute the central axis of this course.
 
-> **Technology does not replace engineering.**  
-> Classical calculations, technical standards, and professional judgment remain central.
+Computational tools are used solely for didactic and organizational support and do not hold decision-making authority in the design process.
 
+---
+
+## Technological Track Objectives
+
+The technological track aims to complement the classical teaching of shallow and deep foundations by introducing contemporary professional tools in an incremental, controlled, and critical manner, such as:
+
+- Machine Learning (ML) — Used for formative and literacy-oriented purposes.
+- Building Information Modeling (BIM).
+- pyRevit — For parameter reading, verification, and model-data traceability.
+- Basic Python Programming — For technical support.
+- Introductory notions of data and model integration.
+
+> Technology does not replace engineering.  
+> Classical calculations and technical standards remain central.
+
+---
 
 ## Repository Structure
 
-- `docs/`  
-  Official course documents (project statements, rubrics, schedule, and checklists).
+docs/  
+Official course documents (guidelines, rubrics, schedules, and checklists).
 
-- `datasets/`  
-  Base datasets used in Machine Learning projects.
+datasets/  
+Base datasets used in Machine Learning activities.
 
-- `notebooks/`  
-  Base notebooks provided to students as didactic support.
+notebooks/  
+Base notebooks provided as didactic support (do not contain full solutions).
 
-- `templates/`  
-  Report and presentation templates.
+templates/  
+Report and presentation templates.
 
-- `examples/`  
-  Simple, commented examples intended exclusively for educational purposes.
+examples/  
+Simple, commented examples strictly for educational purposes.
 
+---
 
 ## Course Projects
 
 ### Project 1 — Shallow Foundations
+
 - Mandatory classical design;
-- Introductory application of Machine Learning;
-- Basic BIM modeling;
-- Critical comparison between methods.
+- Introduction to Machine Learning using Orange (low-code) software;
+- Introductory use of BIM supported by pyRevit for parameter organization and verification;
+- Critical comparison between classical results and computational analysis.
+
+ML at this stage serves a literacy-oriented purpose and does not replace classical design decisions.
+
+---
 
 ### Project 2 — Deep Foundations
+
 - Classical design and use of RSPile;
-- Machine Learning at an intermediate level;
-- Introduction to the Digital Twin concept;
-- Integration of data, models, and assumptions.
+- Basic Python programming for technical support;
+- Expanded use of pyRevit for traceability between data, hypotheses, and the BIM model;
+- Introductory-to-moderate ML application, emphasizing critical interpretation.
 
+---
 
-## Student Use
+## Guidelines for Students
 
-- This repository is **for reference only**.
-- Each group must create **its own repository**, following the guidelines provided in class.
-- Programming complexity is **not evaluated**; emphasis is placed on:
-  - organization,
-  - clarity,
-  - technical consistency.
+This repository is for reference only.
+
+Each group must create their own repository, following the instructions provided in class.
+
+Assessment is not based on programming complexity, but rather on:
+
+- Organization,
+- Clarity,
+- Technical consistency.
+
+---
 
 ## Course Coordination
 
-- **Course instructor:** Prof. Dr. Paulo Albuquerque  
-- **Technological track and computational support:**  
-  Heloi Moacyr Tanoue (Teaching Assistant / Graduate Program)
+Professor in Charge: Prof. Dr. Paulo Albuquerque
 
-## Important Note
+Technological Track & Computational Support:  
+Heloi Moacyr Tanoue (PED / Graduate Program)
 
-The use of Machine Learning, BIM, and Digital Twins in this course is  
-**didactic and exploratory in nature** and does not replace normative methodologies,  
-professional responsibility, or engineering judgment.
+---
+
+## Important Notice
+
+The use of Machine Learning, BIM, and programming tools in this course is didactic and exploratory. It does not replace regulatory methodologies, professional responsibility, or engineering judgment.
