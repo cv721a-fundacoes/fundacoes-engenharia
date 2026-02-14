@@ -98,6 +98,13 @@ O ML nesta etapa possui caráter **alfabetizador**, não decisório.
 
 ---
 
+## Documentos Oficiais
+
+Os arquivos `.tex` disponíveis em `docs/tex/` constituem a fonte oficial editável dos documentos da disciplina.
+
+Os arquivos PDF atualizados são disponibilizados exclusivamente via Google Classroom, a fim de garantir que todos os alunos utilizem a versão vigente.
+
+
 ## Observação Importante
 
 O uso de Machine Learning, BIM e ferramentas de programação nesta disciplina tem caráter
