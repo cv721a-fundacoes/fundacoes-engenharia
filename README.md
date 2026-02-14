@@ -57,6 +57,21 @@ ferramentas contemporâneas utilizadas na prática profissional, tais como:
 
 ---
 
+## Governança de Documentos
+
+Este repositório constitui o **repositório técnico oficial da disciplina**.
+
+Os arquivos `.tex` disponíveis em `docs/tex/` são a fonte editável oficial dos documentos institucionais.
+
+Os arquivos PDF atualizados são disponibilizados exclusivamente via Google Classroom, que é o canal oficial de distribuição aos alunos.
+
+Essa separação garante:
+- controle de versão técnico no GitHub;
+- estabilidade operacional no Classroom;
+- redução de conflitos de versão.
+
+---
+
 ## Projetos da Disciplina
 
 ### Projeto 1 — Fundações Rasas
