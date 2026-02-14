@@ -5,9 +5,10 @@
 A disciplina **Fundações (CV721A)** integra métodos clássicos da Engenharia Geotécnica com ferramentas computacionais contemporâneas, de forma **incremental, crítica e orientada ao raciocínio de engenharia**.
 
 A trilha tecnológica não substitui o dimensionamento normativo nem a análise técnica tradicional. Seu objetivo é **complementar** a formação do aluno, desenvolvendo competências em:
-- análise de dados,
+
+- análise e organização de dados,
 - interpretação crítica de resultados computacionais,
-- integração entre modelos analíticos, numéricos e digitais.
+- integração entre modelos analíticos e representações digitais.
 
 ---
 
@@ -24,11 +25,12 @@ A adoção de ferramentas tecnológicas na disciplina segue os princípios:
 
 ## 3. Estrutura da Trilha Tecnológica
 
-A trilha tecnológica está organizada em níveis progressivos:
+A trilha tecnológica está organizada em etapas progressivas:
 
-### 3.1 Nível Introdutório — Fundamentos Computacionais
+### 3.1 Etapa Introdutória — Fundamentos Computacionais
+
 - Introdução à análise de dados geotécnicos.
-- Regressão linear aplicada a parâmetros de solo.
+- Aplicação de modelos supervisionados simples para apoio a estimativas.
 - Comparação entre estimativas computacionais e métodos clássicos.
 
 **Recursos:**
@@ -37,7 +39,7 @@ A trilha tecnológica está organizada em níveis progressivos:
 
 ---
 
-### 3.2 Nível Intermediário — Integração com Projetos de Fundações
+### 3.2 Etapa Aplicada — Integração com Projetos de Fundações
 
 - Aplicação de modelos simples de Machine Learning para apoio a estimativas preliminares.
 - Integração entre dimensionamento clássico e resultados computacionais.
@@ -49,12 +51,12 @@ A trilha tecnológica está organizada em níveis progressivos:
 
 ---
 
-### 3.3 Nível Avançado — BIM, pyRevit e Digital Twin Simplificado
+### 3.3 Etapa Integrada — BIM e pyRevit
 
 - Modelagem de fundações no ambiente BIM.
-- Leitura e organização de parâmetros via scripts em pyRevit.
+- Leitura e organização de parâmetros via pyRevit.
 - Extração de informações do modelo e verificação de coerência geométrica.
-- Introdução ao conceito de Digital Twin em nível didático.
+- Introdução didática à integração entre dados, modelos e representação digital.
 
 **Observação:**  
 O uso de scripts não substitui o projeto de engenharia, sendo restrito à leitura, organização e análise de informações do modelo.
