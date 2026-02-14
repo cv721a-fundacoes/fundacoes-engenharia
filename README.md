@@ -1,4 +1,5 @@
 🇧🇷 Português | 🇺🇸 [English version](README.en.md)
+
 # Disciplina de Fundações CV721A — Engenharia Civil (UNICAMP)
 
 Este repositório reúne os **materiais institucionais da disciplina de Fundações (CV721A)**,
@@ -10,21 +11,30 @@ computacionais, sempre **subordinadas ao raciocínio clássico da Engenharia Geo
 
 ---
 
+## Princípio Estruturante
+
+O dimensionamento clássico, as normas técnicas (ex.: NBR 6122) e o julgamento profissional
+constituem o eixo central da disciplina.
+
+Ferramentas computacionais são utilizadas como **apoio didático e organizacional**, 
+não assumindo caráter decisório no processo de projeto.
+
+---
+
 ## Objetivo da Trilha Tecnológica
 
-A trilha tecnológica da disciplina tem como objetivo **complementar** o ensino clássico
+A trilha tecnológica tem como objetivo **complementar** o ensino clássico
 de fundações rasas e profundas, introduzindo de forma **incremental, controlada e crítica**
 ferramentas contemporâneas utilizadas na prática profissional, tais como:
 
-- Machine Learning (ML)
+- Machine Learning (ML) — em caráter formativo
 - Modelagem da Informação da Construção (BIM)
-- Digital Twins
-- Scripts em Python e pyRevit
-- Automação leve aplicada à leitura e verificação de modelos (ex.: pyRevit)
-
+- Uso do pyRevit para leitura e verificação de parâmetros
+- Programação básica em Python para apoio técnico
+- Noções introdutórias de integração entre dados e modelos
 
 > Tecnologia não substitui engenharia.  
-> O cálculo clássico, a norma técnica e o julgamento profissional permanecem centrais.
+> O cálculo clássico e a norma técnica permanecem centrais.
 
 ---
 
@@ -34,10 +44,10 @@ ferramentas contemporâneas utilizadas na prática profissional, tais como:
   Documentos oficiais da disciplina (enunciados, rubricas, cronograma e checklists).
 
 - `datasets/`  
-  Datasets-base utilizados nos projetos de Machine Learning.
+  Datasets-base utilizados nas atividades de Machine Learning.
 
 - `notebooks/`  
-  Notebooks-base fornecidos aos alunos como apoio didático.
+  Notebooks-base fornecidos como apoio didático (não contêm solução completa).
 
 - `templates/`  
   Modelos de relatórios e apresentações.
@@ -50,16 +60,22 @@ ferramentas contemporâneas utilizadas na prática profissional, tais como:
 ## Projetos da Disciplina
 
 ### Projeto 1 — Fundações Rasas
+
 - Dimensionamento clássico obrigatório;
-- Aplicação introdutória de Machine Learning;
-- Modelagem BIM básica;
-- Comparação crítica entre métodos.
+- Introdução ao Machine Learning por meio do software **Orange (low-code)**;
+- Uso introdutório do BIM com apoio do **pyRevit** para organização e verificação de parâmetros;
+- Comparação crítica entre resultados clássicos e análises computacionais.
+
+O ML nesta etapa possui caráter **alfabetizador**, não decisório.
+
+---
 
 ### Projeto 2 — Fundações Profundas
+
 - Dimensionamento clássico e uso do RSPile;
-- Machine Learning em nível moderado;
-- Introdução ao conceito de Digital Twin;
-- Integração entre dados, modelos e hipóteses.
+- Programação básica em Python como apoio técnico;
+- Uso ampliado do **pyRevit** para rastreabilidade entre dados, hipóteses e modelo BIM;
+- Aplicação de ML em nível introdutório–moderado, com ênfase em interpretação crítica.
 
 ---
 
@@ -84,7 +100,6 @@ ferramentas contemporâneas utilizadas na prática profissional, tais como:
 
 ## Observação Importante
 
-O uso de Machine Learning, BIM e Digital Twins nesta disciplina tem caráter
+O uso de Machine Learning, BIM e ferramentas de programação nesta disciplina tem caráter
 **didático e exploratório**, não substituindo metodologias normativas,
 responsabilidade técnica ou julgamento profissional.
-
